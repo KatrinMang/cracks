@@ -135,6 +135,7 @@ BitmapFile::BitmapFile(const std::string &name)
 // pixel. We truncate both kinds of variables from both below
 // and above to avoid problems when evaluating the function outside
 // of its defined range as may happen due to roundoff errors.
+
 double
 BitmapFile::get_pixel_value(const int i,
                             const int j) const
